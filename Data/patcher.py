@@ -2,7 +2,7 @@ import numpy as np
 from patchify import patchify as p
 import cv2
 
-raw_img = cv2.imread('ortho_aoi_30.png')
+# raw_img = cv2.imread('dem_aoi_30.tiff')
 raw_mask = cv2.imread('mask.png')
 
 # for img in range(raw_img.shape[0]):
@@ -21,17 +21,19 @@ raw_mask = cv2.imread('mask.png')
 #             single_patch_mask = patch_mask[i,j,:,:]
 #             cv2.imwrite('mask_patch/' + 'img_' + str(mask) + '_' + str(i) + '_' + str(j) + '.png')
 
-patches_img = p(raw_img, (512, 512, 3), step=(448))
-patches_mask = p(raw_mask, (512, 512, 3), step=448)
+# patches_img = p(raw_img, (512, 512, 3), step=(448))
+# # patches_mask = p(raw_mask, (512, 512, 3), step=448)
 
-for i in range(patches_img.shape[0]):
-    for j in range(patches_img.shape[1]):
-        single_patch_img = patches_img[i, j, 0, :, :, :]
-        if not cv2.imwrite('img_patch/' + 'image_' + str(i) + '_' +str(j)+'.png', single_patch_img):
-            raise Exception("Gaiso nulis image")
+# for i in range(patches_img.shape[0]):
+#     for j in range(patches_img.shape[1]):
+#         single_patch_img = patches_img[i, j, 0, :, :, :]
+#         if not cv2.imwrite('dem_patch/' + 'image_' + str(i) + '_' +str(j)+'.png', single_patch_img):
+#             raise Exception("Gaiso nulis image")
 
-for i in range(patches_mask.shape[0]):
-    for j in range(patches_mask.shape[1]):
-        single_patch_mask = patches_mask[i, j, 0, :, :, :]
-        if not cv2.imwrite('mask_patch/' + 'mask_' + str(i) + '_' +str(j)+'.png', single_patch_mask):
-            raise Exception("Gaiso nulis mask")
+# for i in range(patches_mask.shape[0]):
+#     for j in range(patches_mask.shape[1]):
+#         single_patch_mask = patches_mask[i, j, 0, :, :, :]
+#         if not cv2.imwrite('mask_patch/' + 'mask_' + str(i) + '_' +str(j)+'.png', single_patch_mask):
+#             raise Exception("Gaiso nulis mask")
+
+print(raw_mask.shape)
