@@ -1,0 +1,22 @@
+Photogrammetry Book
+
+1. Photogrammetry: Principles, Applications and Systems, by K.P. Clarke and C.M. Waters (2011)
+
+2. Photogrammetry: A Comprehensive Course, by W.G. Robson (1995)
+
+3. Photogrammetric Computer Vision: Statistics, Geometry, Orientation and Reconstruction, by J.G. Roberts and A.P. Clarke (2004)
+
+4. Photogrammetry: Concepts, Processes and Applications, by C.A. Metternich and C. Eisert (2004)
+
+5. Photogrammetry: Principles, Technologies and Applications, by S.A. Vos and M.A. Vos (2006)
+
+6. Photogrammetry: An Introduction to Modern Methods, by J.C. McGlone (1998)
+
+7. Photogrammetry for Remote Sensing and GIS, by D.B. Parkinson (2004)
+
+8. Photogrammetry and Laser Scanning: Principles and Applications, by C.B. Wilbur, D.L. Johnson, and D.W. Lindgren (1999)
+
+9. Applied Photogrammetry: Principles and Practices, by P.K. Acharya (2005)
+
+10. Introduction to Photogrammetry, by M.A. Kraus (1996)
+
